@@ -1,0 +1,22 @@
+.profile {
+  .profile-body {
+    border: 1px solid #2d2c2c1a;
+    border-radius: 6px;
+    background-color: #fff;
+    margin-top: 20px;
+  }
+
+  .logout-button {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+    padding: 0;
+
+    .button {
+      border: 1px solid #076b75;
+      border-radius: 6px;
+      color: #076b75;
+      box-shadow: none;
+    }
+  }
+}

@@ -1,0 +1,29 @@
+.user-info {
+  .info-item {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 26px;
+
+    .info-title {
+      color: #808285;
+    }
+  }
+
+  .divider {
+    margin-left: 26px;
+    margin-right: 26px;
+  }
+  .info-button {
+    display: flex;
+    justify-content: flex-end;
+    margin: 10px 0 20px 26px;
+
+    .button {
+      // border: 1px solid #076b75;
+      background-color: #0996a4;
+      border-radius: 6px;
+      color: #fafafa;
+      box-shadow: none;
+    }
+  }
+}

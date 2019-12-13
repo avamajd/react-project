@@ -1,0 +1,25 @@
+.profile-form {
+  .buttons {
+    display: flex;
+    justify-content: flex-end;
+    margin: 20px 0;
+
+    .cancel-button {
+      color: #076b75;
+      margin-left: 10px;
+      background-color: transparent;
+    }
+
+    .confirm-button {
+      border-radius: 6px;
+      background-color: #0996a4;
+      box-shadow: none;
+    }
+  }
+
+  .error-msg {
+    color: red;
+    margin-top: 0.25rem;
+    text-align: right;
+  }
+}
